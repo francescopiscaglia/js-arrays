@@ -19,3 +19,5 @@ const longNames = teachers.filter(x => x.length >= 5);
 console.log(longNames);
 
 // 3. Rimuovi 'Ed' dall'array teachers
+teachers.splice(5, 1); // è in posizione 5 perchè ho usato reverse
+console.log(teachers);
